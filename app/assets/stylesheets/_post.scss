@@ -1,0 +1,48 @@
+.header{
+  height: 90px;
+  background-color: orange;
+  color: wheat;
+  border-bottom: 20px solid yellow;
+   &__logo {
+    text-align: center;
+    line-height: 90px;
+    font-size: 45px;
+  }
+}
+.contents{
+  background-color: lightgoldenrodyellow;
+  width: 900px;
+  height: calc(100vh - 90px - 20px);
+  margin: 0 auto;
+  &__message{
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: lightpink;
+  }
+  &__btn{
+    display: block;
+    height: 80px;
+    width: 360px;
+    margin: 0 auto 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: lightsteelblue;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    &--icon{
+      padding-right: 20px;
+    }
+    &--facebook{
+      background-color: lime;
+    }
+    &--twitter{
+      background-color: magenta;
+    }
+    &--inst{
+      background-color: maroon;
+    }
+
+  }
+}
